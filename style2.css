@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+.header {
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  height: 110px;
+  
+}
+
+.header_logo {
+  padding-left: 140px;
+  padding-top: 30px;
+}
+
+.menu {
+  padding-right: 140px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-item2 {
+  text-decoration: none;
+  color: white;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+
+.main {
+  background: #F1F1F1;
+  width: 100%;
+  gap: 25px;
+}
+
+  
+.content_title {
+  width: 767px;
+  color: var(--black, #121723);
+  font-family: "Anonymous Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 25px;
+  margin: 0;
+
+}
+
+.full_content_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 140px;
+
+}
+
+.image {
+  width: 393px;
+  height: 254px;
+}
+
+.full_1_card {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 25px;
+
+}
+
+.full_2_card {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  
+}
+
+.full_3_card {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding-bottom: 25px;
+}
+
+
+
+.sneaker{
+  flex: none;
+  display: flex;
+  flex-direction: column;
+}
+  
+
+.card_info {
+  background-color: #fff;
+  border-radius: 0px 0px 12px 12px; 
+  align-items: center;
+  gap: 10px;
+  word-wrap: break-word;
+  width: 393px;
+}
+
+.card_text_title {
+  width: 323px;
+  color: var(--black, #121723);
+  font-family: "Anonymous Pro";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 24px;
+}
+
+.card_text_author {
+  align-self: stretch;
+  color: var(--black, #121723);
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 24px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 142px;
+
+
+}
+
+.footer_full {
+  background-color: black;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.footer_logo {
+  padding-left: 140px;
+}
+
+
+.text_bottom {
+  color: #A1A6B4;
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  margin: 0;
+}
+
+.hr {
+  size: 1px;
+  padding-left: 140px;
+  padding-right: 140px;
+  width: 950px;
+}
